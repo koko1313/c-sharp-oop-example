@@ -14,9 +14,9 @@ namespace c_sharp_oop_example
             StartMoving(car1);
             StartMoving(bicycle1);
             StartMoving(airplane1);
-            // StartMoving(human1);
+            StartMoving(human1);
 
-            void StartMoving(Vehicle movableThing)
+            void StartMoving(IMovable movableThing)
             {
                 movableThing.Move();
             }

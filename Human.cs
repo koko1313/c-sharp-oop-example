@@ -4,7 +4,7 @@ using System.Text;
 
 namespace c_sharp_oop_example
 {
-    class Human
+    class Human : IMovable
     {
         String name;
 

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace c_sharp_oop_example
 {
-    abstract class Vehicle
+    abstract class Vehicle : IMovable
     {
         private int peopleCapacity;
         private int weight;
