@@ -9,7 +9,7 @@ namespace c_sharp_oop_example
         private int peopleCapacity;
         private int weight;
 
-        public Vehicle(int peopleCapacity, int weight)
+        protected Vehicle(int peopleCapacity, int weight)
         {
             this.peopleCapacity = peopleCapacity;
             this.weight = weight;

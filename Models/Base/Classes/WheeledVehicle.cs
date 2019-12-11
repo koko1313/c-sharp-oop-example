@@ -8,7 +8,7 @@ namespace c_sharp_oop_example
     {
         private int wheelsCount;
 
-        public WheeledVehicle(int peopleCapacity, int weight, int wheelsCount) : base(peopleCapacity, weight)
+        protected WheeledVehicle(int peopleCapacity, int weight, int wheelsCount) : base(peopleCapacity, weight)
         {
             this.wheelsCount = wheelsCount;
         }
